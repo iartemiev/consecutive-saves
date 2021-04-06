@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-consecutivesaves-dev-163857-authRole",
+      "UnauthRoleArn": "arn:aws:iam::325800432239:role/amplify-consecutivesaves-dev-163857-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::325800432239:role/amplify-consecutivesaves-dev-163857-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-consecutivesaves-dev-163857-deployment",
+      "UnauthRoleName": "amplify-consecutivesaves-dev-163857-unauthRole",
+      "StackName": "amplify-consecutivesaves-dev-163857",
+      "StackId": "arn:aws:cloudformation:us-east-2:325800432239:stack/amplify-consecutivesaves-dev-163857/4b17b440-8e73-11eb-8bf4-0a895b109086",
+      "AmplifyAppId": "d2lz8dpfnul550"
+    }
+  },
+  "sandbox": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-consecutivesaves-sandbox-72829-authRole",
+      "UnauthRoleArn": "arn:aws:iam::325800432239:role/amplify-consecutivesaves-sandbox-72829-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::325800432239:role/amplify-consecutivesaves-sandbox-72829-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-consecutivesaves-sandbox-72829-deployment",
+      "UnauthRoleName": "amplify-consecutivesaves-sandbox-72829-unauthRole",
+      "StackName": "amplify-consecutivesaves-sandbox-72829",
+      "StackId": "arn:aws:cloudformation:us-east-2:325800432239:stack/amplify-consecutivesaves-sandbox-72829/36d9c120-96cb-11eb-9d9b-0ac67050adbe",
+      "AmplifyAppId": "d2lz8dpfnul550"
+    }
+  }
+}

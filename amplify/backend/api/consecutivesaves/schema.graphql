@@ -3,4 +3,12 @@ type Post @model {
 	title: String!
 	description: String
 	tags: [String]
+	comments: [Comment] @connection(keyName: "byPost", fields: ["id"])
+}
+
+type Comment @model @key(name: "byPost", fields: ["postId"]) {
+	id: ID!
+	content: String!
+	postId: ID!
+	post: Post @connection(fields: ["postId"])
 }
